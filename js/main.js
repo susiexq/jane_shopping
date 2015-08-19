@@ -85,7 +85,6 @@ function every_li(){
 	$('li:has(ul)').click(function(event){
 			if(this == event.target){
 				$(this).children().toggle(200,function(index,value){
-					console.log($(this).parent());
 					if(Data.count%2==0){
 						$(this).parent().css("listStyleImage","url(../img/treeview-collapsed.gif)");
 						Data.count++;
