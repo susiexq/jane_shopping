@@ -53,6 +53,8 @@ h1{
 	background:#39599C;
 }
 .navbox{
+	text-align:center;
+	width:7%;
 	height:60%;
 	line-height:180%;
 	color: #0086CE;
@@ -62,9 +64,28 @@ h1{
 	margin-right: 2.9%;
 	margin-top:0.8%;
 	float: left;
-	padding: 0px 5px 0px 5px;
+}
+.navbox:hover{
+	color:white;
+	background:#39599C;
+}
+.navbox:hover .navtext{
+	display:block;
 }
 .navmain{margin-left: 0.9%;}
+.navtext{
+	color:white;
+	opacity:.8;
+	display:none;
+	position:relative;
+	z-index:1;
+	background:#39599C;
+	border-bottom:1px solid #bbb;
+}
+.navtext:hover {
+	background:#66ccff;
+}
+
 #content{
 	margin-top:1.2%;
 	height: 500px;
