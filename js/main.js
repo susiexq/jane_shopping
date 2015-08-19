@@ -132,16 +132,16 @@ function getCookie(name)
 } 
 function showCloth(){
 	$('#leftbox').on('click',function(){
-		Data.value = Data.value + 8.5;
-		if(Data.value > 25.5)
+		Data.value = Data.value + 26.6;
+		if(Data.value > 54)
 			Data.value = 0;//25.5;
 		$('#displayall')[0].style.transform =  'translate3d(-'+Data.value +'%,0px,0px)';
 		return false;
 	});
 	$('#rightbox').on('click',function(){
-		Data.value = Data.value - 8.5;
+		Data.value = Data.value - 26.6;
 		if(Data.value < 0)
-			Data.value = 25.5;//0;
+			Data.value = 53.2;//0;
 		$('#displayall')[0].style.transform =  'translate3d(-'+Data.value +'%,0px,0px)';
 		return false;
 	});
