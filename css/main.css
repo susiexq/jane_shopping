@@ -1,0 +1,239 @@
+body,html,div,p,h1{
+	padding:0px;
+	margin: 0px;
+}
+#container{
+	width: 80%;
+	margin: 0 auto;
+	min-width: 890px;
+}
+#header{
+	line-height: 90px;
+	height: 90px;
+	width:100%;
+	background:#39599C;
+	color: #fff;
+	overflow:hidden;
+}
+h1{
+	margin-left: 10px;
+	float: left;
+	font-size:50px;
+}
+#color_change{
+	height:30%;
+	background:#fff;
+	border-radius:2px;
+	width:13%;
+	float:right;
+	margin-top: 1%;
+	margin-right: 1%;
+}
+.colorbox{
+	width: 10%;
+	height: 60%;
+	border-radius: 2px;
+	float:left;
+	margin-right: 4.9%;
+	margin-top: 3.5%;
+}
+.navy{
+	margin-left: 4.9%;
+	background:#39599C; 
+}
+.pink{background:#BD38DE;}
+.red{background:#E71E59;}
+.blue{background:#08BECE;}
+.orange{background:#FFA916;}
+.green{background:#B4D60E;}
+#nav{
+	margin-top:1.2%;
+	height: 46px;
+	width:100%;
+	background:#39599C;
+}
+.navbox{
+	height:60%;
+	line-height:180%;
+	color: #0086CE;
+	border-radius:2px;
+	font-weight:bold;
+	background:#fff;
+	margin-right: 2.9%;
+	margin-top:0.8%;
+	float: left;
+	padding: 0px 5px 0px 5px;
+}
+.navmain{margin-left: 0.9%;}
+#content{
+	margin-top:1.2%;
+	height: 500px;
+	width: 100%;
+	
+}
+.left{
+	width:23%;
+	background:#EFEFEF;
+	float:left;
+	border:1px solid #BCBABC;
+}
+.lefttop{
+}
+.leftbottom{
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+.left_title{
+	width: 100%;
+	height:32px;
+	color:#fff;
+	line-height: 180%;
+	font-weight:bold;
+	background:#39599C;
+
+}
+.left_title2{
+	width: 100%;
+	height:32px;
+	color:#fff;
+	line-height: 200%;
+	font-weight:bold;
+	background:#39599C;
+}
+.left_title p,.left_title2 p{
+	margin-left:2%;
+	float:left;
+}
+#left_active{
+	padding-top:8px;
+	height:80px;
+	color: #0086CE;
+	overflow:hidden;
+	background: #fff;
+}
+#left_active a{
+	display: block;
+  	margin-left: 20px;
+  	margin-bottom: 5px;
+  	text-decoration: none;
+  	color: #0086CE;
+  	font-size: 13px;
+}
+.clicktohide{
+	background: url(../img/down.gif) no-repeat;
+	background-position: center;
+	width:32px;
+	height:32px;
+	float:right;
+}
+.right{
+	float:right;
+	width:73%;
+	height:100%;
+	border:1px solid #BCBABC;
+}
+#left_product{
+	overflow:hidden;
+	background: #fff;
+	width:100%;
+	font-size:15px;
+}
+.ul_title{
+	list-style: url('../img/treeview-expanded.gif');
+}
+#left_product li{
+	margin-top: 4.4%;
+}
+.righttop{
+	width:100%;
+	height:38%;
+	background: #EFEFEF;
+	position:relative;
+	overflow:hidden;
+}
+
+.rightbottom{
+	width: 100%;
+	height:56%;
+	margin-top: 2%;
+	background: #EFEFEF;
+}
+#right_nav{
+	
+	position:absolute;
+	top:150px;
+	right:30px;
+}
+.picbox{
+	width: 100%;
+	height:190px;
+}
+#pic1{background: url(../img/1.gif) no-repeat ;background-size:100% 100%;}
+#pic2{background: url(../img/2.gif) no-repeat ;background-size:100% 100%;;}
+#pic3{background: url(../img/3.gif) no-repeat ;background-size:100% 100%;;}
+#pic4{background: url(../img/4.gif) no-repeat ;background-size:100% 100%;;}
+#pic5{background: url(../img/5.gif) no-repeat ;background-size:100% 100%;;} 
+
+.cloth1{background: url(../img/img_1.jpg) no-repeat ;background-size:100% 100%;margin-left: 20px;}
+.cloth2{background: url(../img/img_2.jpg) no-repeat ;background-size:100% 100%;}
+.cloth3{background: url(../img/img_3.jpg) no-repeat ;background-size:100% 100%;}
+.cloth4{background: url(../img/img_4.jpg) no-repeat ;background-size:100% 100%;}
+.nav_box{
+	padding: 3px 5px;
+	margin-right:5px;
+	background:#fff;
+	color:gray;
+	text-align:center;
+	float:left;
+	border-radius: 1px;
+}
+.righttitle{
+	width: 100%;
+	height:13%;
+	color:#fff;
+	line-height: 180%;
+	font-weight:bold;
+	background:#39599C;
+	position:relative;
+}
+#left_right{
+	float:right;
+	right:3%;
+	width:5%;
+	height:60%;
+	right:20px;
+}
+.righttitle div{
+	float:left;
+	width:20%;
+	margin-left:1%;
+}
+#left_right a{
+	color:#fff;
+}
+#leftbox,#rightbox{
+	float:left;
+	width:49%;
+	height:100%;
+}
+.clothbox{
+	width:5.5%;
+	height:190px;
+	background:#39599C;
+	float:left;
+	margin-top: 1.5%;
+	margin-right: 3%;
+
+}
+.clothbox1{
+	margin-left: 20px;
+}
+#gallery{
+	overflow:hidden;
+}
+#displayall{
+	width:300%;
+}
+.nav_show{
+	background:red;
+}
