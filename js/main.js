@@ -17,6 +17,7 @@ $(function(){
 	changeColor();
 	showCloth();
 	linkChange();
+	navShow();
 })
 function pageChange(id,value){
 	$(id).on('click',function(){
@@ -114,6 +115,21 @@ function setCookie(name,value)
     exp.setTime(exp.getTime() + Days*24*60*60*1000); 
     document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString(); 
 } 
+function navShow(){
+	$('.navbox').each(function(index,value){
+		$(value).hover(
+			function(){
+				var bgcolor = $("#header").css("background");
+				$(this).css("background",bgcolor).css("color","#fff");
+				$(this).children().css("display","block").css("background",bgcolor);
+			},
+			function(){
+				$(this).css("background","#fff").css("color","#0086CE");
+				$(this).children().css("display","none");
+			}
+		)
+	});
+}
 function getCookie(name) 
 { 
     var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
