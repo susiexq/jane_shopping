@@ -163,6 +163,9 @@ h1{
 .ul_title{
 	list-style: url('../img/treeview-expanded.gif');
 }
+.ul_title_hide{
+	list-style: url('../img/treeview-collapsed.gif');
+}
 .ul_title li{
 	margin-top: 4.4%;
 	list-style: url('../img/dot_icon.png');
