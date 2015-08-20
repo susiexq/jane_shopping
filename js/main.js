@@ -84,15 +84,8 @@ function linkChange(){
 function every_li(){
 	$('li:has(ul)').click(function(event){
 			if(this == event.target){
-				$(this).children().toggle(200,function(index,value){
-					if(Data.count%2==0){
-						$(this).parent().css("listStyleImage","url(../img/treeview-collapsed.gif)");
-						Data.count++;
-					}else{
-						$(this).parent().css("listStyleImage","url(../img/treeview-expanded.gif)");
-						Data.count++;
-					}
-				});
+				$(this).children().toggle(200);
+				$(this).toogleClass('ul_title_hide');
 			}
 			return false;
 		}).css('cursor','pointer');
